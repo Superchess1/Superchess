@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/square-format.png">
+    <link rel="stylesheet" href="stile.css">
+    <script src="script.js"></script>
+    <title>Superajedrez</title>
+   
+</head>
+<body>
+
+    <header>
+        <img src="Images/APresent1.png" alt="">
+        <h1></h1>
+    </header>
+
+    <div id="section1">
+        <h2>Sección 1</h2>
+        
+    
+        <table id="game-board1">
+            <tr>
+                <td class="blue"></td>
+                <td class="white piece">&#9820;</td>
+                <td class="black piece">&#9822;</td>
+                <td class="white piece">&#9821;</td>
+                <td class="black piece">&#9819;</td>
+                <td class="white piece"></td>
+                <td class="black piece">&#9821;</td>
+                <td class="white piece">&#9822;</td>
+                <td class="black piece">&#9820;</td>
+                <td class="blue"></td>
+            </tr>
+            <tr>
+                <td class="blue"></td>
+                <td class="black piece">&#9823;</td>
+                <td class="white piece">&#9823;</td>
+                <td class="black piece">&#9823;</td>
+                <td class="white piece">&#9823;</td>
+                <td class="black piece">&#9823;</td>
+                <td class="white piece">&#9823;</td>
+                <td class="black piece">&#9823;</td>
+                <td class="white piece">&#9823;</td>
+                <td class="blue"></td>
+            </tr>
+        </table>
+
+        <table id="game-board">
+            
+        <tr>
+            <td class="label-cell no-click"></td>
+            <td class="label-cell no-click">a</td>
+            <td class="label-cell no-click">b</td>
+            <td class="label-cell no-click">c</td>
+            <td class="label-cell no-click">d</td>
+            <td class="label-cell no-click">e</td>
+            <td class="label-cell no-click">f</td>
+            <td class="label-cell no-click">g</td>
+            <td class="label-cell no-click">h</td>
+            <td class="label-cell no-click"></td>
+        </tr>
+        <tr>
+            <td class="label-cell no-click">8</td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white">&#9818;</td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="label-cell no-click">8</td>
+        </tr>
+
+        <tr>
+            <td class="label-cell no-click">7</td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="label-cell no-click">7</td>
+        </tr>
+
+        <tr>
+            <td class="label-cell no-click">6</td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="label-cell no-click">6</td>
+        </tr>
+
+        <tr>
+            <td class="label-cell no-click">5</td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="label-cell no-click">5</td>
+        </tr>
+
+        <tr>
+            <td class="label-cell no-click">4</td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="label-cell no-click">4</td>
+        </tr>
+
+        <tr>
+            <td class="label-cell no-click">3</td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="label-cell no-click">3</td>
+        </tr>
+
+        <tr>
+            <td class="label-cell no-click">2</td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="label-cell no-click">2</td>
+        </tr>
+
+        <tr>
+            <td class="label-cell no-click">1</td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black">&#9812;</td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="label-cell no-click">1</td>
+        </tr>
+
+        <tr>
+            <td class="label-cell no-click"></td>
+            <td class="label-cell no-click">a</td>
+            <td class="label-cell no-click">b</td>
+            <td class="label-cell no-click">c</td>
+            <td class="label-cell no-click">d</td>
+            <td class="label-cell no-click">e</td>
+            <td class="label-cell no-click">f</td>
+            <td class="label-cell no-click">g</td>
+            <td class="label-cell no-click">h</td>
+            <td class="label-cell no-click"></td>
+        </tr>
+    </table>
+    <table id="game-board1">
+        <tr>
+            <td class="blue"></td>
+        <td class="white piece">&#9817;</td>
+        <td class="black piece">&#9817;</td>
+        <td class="white piece">&#9817;</td>
+        <td class="black piece">&#9817;</td>
+        <td class="white piece">&#9817;</td>
+        <td class="black piece">&#9817;</td>
+        <td class="white piece">&#9817;</td>
+        <td class="black piece">&#9817;</td>
+        <td class="blue"></td>
+    
+        </tr>
+    
+        <tr>
+            <td class="blue"></td>
+        <td class="black piece">&#9814;</td>
+        <td class="white piece">&#9816;</td>
+        <td class="black piece">&#9815;</td>
+        <td class="white piece">&#9813;</td>
+        <td class="black piece"></td>
+        <td class="white piece">&#9815;</td>
+        <td class="black piece">&#9816;</td>
+        <td class="white piece">&#9814;</td>
+        <td class="blue"></td>
+    
+    </tr>
+    </table>
+
+    </div>
+    </div>
+
+    <div id="section2">
+        <h2>Sección 2</h2>
+        <img src="Images/Criptomone.png" width="100px" height="100px" alt="">
+        <button class="button">
+            <h3>MONE</h3>
+        </button>
+        <div id="moves-container">
+
+            <div id="moves-section"></div>
+              
+        </div>
+        
+        <table id="game-moves">
+
+            <form action="">
+                <label for="">Usuario:</label>
+                <input type="text">
+                <label for="">Email</label>
+                <input type="text">
+                
+            </form>
+
+            <thead>
+                <tr>
+                    <th class="white">Nº</th>
+                    <th class="white">Blancas</th>
+                    <th class="white">Negras</th>
+                </tr>
+                <ul id="moves-list"></ul>
+                <tr>
+                    <th class=""></th>
+                    <th class=""></th>
+                    <th class=""></th>
+                </tr>
+                <tr>
+                    <th class=""></th>
+                    <th class=""></th>
+                    <th class=""></th>
+                </tr>
+                <tr>
+                    <th class=""></th>
+                    <th class=""></th>
+                    <th class=""></th>
+                </tr>
+                
+
+            </thead>
+            
+        </table>
+    </div>
+</div>
+    </div>
+
+    <footer>
+        <p>Superajedrez Simplemente Superior</p>
+    </footer>
+
+</body>
+</html>

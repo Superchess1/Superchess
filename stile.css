@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+#section1, #section2 {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+
+
+#section1 {
+    background-color: lightcoral;
+    
+    margin-bottom: 60px;
+
+}
+
+table  {
+    border-collapse: collapse;
+    align-items: center;
+    background-color: aquamarine;
+    display: flex;
+    margin: 0px auto 0;
+    width: 430px;
+    border: 5px solid;
+    cursor: pointer;
+}
+
+td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    font-weight: bold;
+    border: 0;
+    
+}
+
+.label-cell {
+    background-color: rgb(180, 226, 193);
+    cursor: default;
+}
+
+.no-click {
+    pointer-events: none;
+}
+
+.white  {
+    background-color: beige;
+}
+
+.black  {
+    background-color: rgb(15, 125, 194);
+}
+
+.piece  {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+ 
+#section2 {
+    background-color: aquamarine;
+    height: 100vh;
+
+    #game-moves {
+        width: 30%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+    
+    #moves-list  {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #moves-list li {
+        margin-bottom: 10px;
+    }
+
+    #game-moves th, #game-moves td {
+        border: 1px solid #100101;
+        padding: 8px;
+        text-align: center;
+        width: 129px;
+        overflow-y: scroll;
+    }
+
+    .button {
+        background-color: #d23838;
+        border: none;
+        text-align: center;
+        display: flex;
+        cursor: pointer;
+        
+      }
+
+      
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
